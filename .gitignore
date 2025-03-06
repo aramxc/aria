@@ -10,3 +10,7 @@ db.sqlite
 .idea
 .tee-cloud
 
+.DS_Store
+
+/data
+/content_cache
