@@ -2,6 +2,7 @@ import { PostgresDatabaseAdapter } from "@elizaos/adapter-postgres";
 import { SqliteDatabaseAdapter } from "@elizaos/adapter-sqlite";
 import Database from "better-sqlite3";
 import path from "path";
+export { supabaseClient } from './supabaseClient';
 
 export function initializeDatabase(dataDir: string) {
   if (process.env.POSTGRES_URL) {

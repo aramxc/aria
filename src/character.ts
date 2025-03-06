@@ -2,6 +2,7 @@ import { Character, Clients, defaultCharacter, ModelProviderName } from "@elizao
 
 export const character: Character = {
     ...defaultCharacter,
+    modelProvider: ModelProviderName.ANTHROPIC,
     // name: "Eliza",
     // plugins: [],
     // clients: [],
